@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/amaranth_892"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/walter_mercado"
+        tools:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/mysticalInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:letterSpacing=".15"
+        android:padding="15dp"
+        android:text="@string/mystical_instruction"
+        tools:text="@string/instructions_box"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="italic"
+         />
+
+    <TextView
+        android:id="@+id/advisorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@color/black"
+        android:padding="5dp"
+        android:text="@string/advisor_name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:text="@string/advisor_name_box" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/main_userName_input"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/blue_455"
+        android:textColorHint="@color/blue_009"
+         />
+
+    <EditText
+        android:id="@+id/userAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/main_userAge_input"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/blue_455"
+        android:textColorHint="@color/blue_009"
+        tools:layout_editor_absoluteX="259dp" />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="10dp"
+        android:rotationY="1"
+        android:text="@string/lucky_number" />
+
+    <TextView
+        android:id="@+id/finalString"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:paddingTop="33dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

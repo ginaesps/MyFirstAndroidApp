@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mystical Advisor</string>
+    <string name="mystical_instruction">Provide your data and find out what the future holds...</string>
+    <string name="instructions_box">Instructions box</string>
+    <string name="advisor_name">Walter Mercado</string>
+    <string name="advisor_name_box">Advisor name</string>
+    <string name="main_userName_input">Tell me your name</string>
+    <string name="main_userAge_input">Tell me your age</string>
+    <string name="lucky_number">Obtain your annual luck number</string>
+</resources>
