@@ -21,16 +21,27 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener() {
 
                 if (userAge.text.isEmpty() || userName.text.isEmpty()) {
-                    finalString.text = "Please enter the required data"
+                    finalString.text = resources.getString(R.string.incomplete_data)
                 }
 
-                else if (userAge.text.toString().toInt()<1) {
-                    finalString.text = "Please enter a valid age"
+                else if (userAge.text.toString().toInt()<1 || userAge.text.toString().toInt()>100) {
+                    finalString.text = resources.getString(R.string.invalid_age)
                 }
 
                 else {
                     val name: String = userName.text.toString()
                     var age: Int = (userAge.text.toString()).toInt()
+
+                    if (age < 9 ) age *= 7
+                    var finalNumber = age
+
+                    while (finalNumber > 9 ){
+                        finalNumber = finalNumber.toString().map(Character::getNumericValue).reduce{acc, num -> acc.toInt() + num.toInt() }
+                        if(finalNumber < 10) finalNumber *= 7
+                    }
+                    finalString.text = resources.getString(R.string.welcome_message, name, finalNumber)
+
+                    /* IMPLEMENTACION ORIGINAL
                     var age1 = age
                     var finalNumber = 0
                     var luckNumber = 0
@@ -46,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     finalString.text = "Welcome $name the Universe dictates to keep the following number close to you: $luckNumber"
-
+                    IMPLEMENTACION ORIGINAL */
                 }
             }
     }

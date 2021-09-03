@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/amaranth_892"
+    android:background="@color/blue_264"
     tools:context=".MainActivity">
 
     <ImageView
@@ -24,7 +24,7 @@
         android:text="@string/mystical_instruction"
         tools:text="@string/instructions_box"
         android:textAlignment="center"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_bdb"
         android:textSize="16sp"
         android:textStyle="italic"
          />
@@ -51,20 +51,20 @@
         android:hint="@string/main_userName_input"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="@color/blue_455"
-        android:textColorHint="@color/blue_009"
+        android:textColor="@color/yellow_ffb"
+        android:textColorHint="@color/yellow_fdf"
          />
 
     <EditText
         android:id="@+id/userAge"
+        android:inputType="number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/main_userAge_input"
-        android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColor="@color/blue_455"
-        android:textColorHint="@color/blue_009"
+        android:textColor="@color/yellow_ffb"
+        android:textColorHint="@color/yellow_fdf"
         tools:layout_editor_absoluteX="259dp" />
 
     <Button

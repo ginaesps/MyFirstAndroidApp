@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mystical_instruction">Provee tus datos para saber que te depara el destino...</string>
+    <string name="instructions_box">Caja de instrucciones</string>
+    <string name="advisor_name_box">Advisor name</string>
+    <string name="main_userName_input">Dime tu nombre</string>
+    <string name="main_userAge_input">Dime tu edad</string>
+    <string name="lucky_number">Obten tu numero anual de la suerte</string>
+    <string name="welcome_message">Bienvenid@ %1$s , el Universo dicta que tu numero allegado es %2$d</string>
+    <string name="incomplete_data">Por favor ingresa los datos solicitados</string>
+    <string name="invalid_age">Por favor ingresa una edad valida</string>
+</resources>

@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Mystical Advisor</string>
+    <string name="app_name" translatable="false">Mystical Advisor</string>
     <string name="mystical_instruction">Provide your data and find out what the future holds...</string>
     <string name="instructions_box">Instructions box</string>
-    <string name="advisor_name">Walter Mercado</string>
+    <string name="advisor_name" translatable="false">Walter Mercado</string>
     <string name="advisor_name_box">Advisor name</string>
     <string name="main_userName_input">Tell me your name</string>
     <string name="main_userAge_input">Tell me your age</string>
     <string name="lucky_number">Obtain your annual luck number</string>
+    <string name="welcome_message">Welcome %1$s the Universe dictates to keep the following number close to you: %2$d</string>
+    <string name="incomplete_data">Please enter the required data</string>
+    <string name="invalid_age">Please enter a valid age</string>
 </resources>
